@@ -1,0 +1,127 @@
+@import "screen.css";
+
+body {
+  margin: 0 auto;
+  height: 100%;
+}
+
+.all-container {
+  border: 6px solid rgb(79, 179, 179);
+  padding: 45px 30px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+
+header h3 {
+  transform: translateX(35vw);
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.top-container img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 30px;
+  border: 2px solid black;
+  margin-right: 3vw;
+}
+
+.top-text > h2 {
+  font-size: 3.5rem;
+  margin-top: -7px;
+  margin-bottom: 25px;
+  line-height: 70px;
+}
+
+.top-text span {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -20px;
+  margin-bottom: 40px;
+}
+
+.btn-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+  font-size: 3rem;
+  border-radius: 30px;
+  border: 2px solid black;
+  box-shadow: 0 5px black;
+}
+
+.btn-play span {
+  padding-left: 15px;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.btn-heart,
+.btn-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 100px;
+  font-size: 3rem;
+  border-radius: 50%;
+  border: 2px solid black;
+  box-shadow: 0 5px black;
+}
+
+.music-list {
+  display: flex;
+  align-items: center;
+}
+
+.music-list .music-colorBox {
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 50px 0px;
+  margin-right: 20px;
+}
+
+.music-list:first-child .music-colorBox {
+  background-color: rgb(250, 112, 62);
+}
+
+.music-list:nth-child(2) .music-colorBox {
+  background-color: rgb(228, 83, 107);
+}
+
+.music-list:nth-child(3) .music-colorBox {
+  background-color: rgb(52, 55, 247);
+}
+
+.music-list:last-child .music-colorBox {
+  background-color: rgb(49, 216, 180);
+}
+
+.music-list .music-list__text h4 {
+  font-size: 2rem;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.music-list .music-list__text span {
+  font-size: 1.5rem;
+}
